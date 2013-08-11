@@ -1,0 +1,16 @@
+#!/bin/bash
+p=1
+k=$1
+echo $k
+if [[ "$k" -eq "$p" ]]
+then
+echo $t
+while [ $p -lt 100 ]; do
+/usr/local/bin/.pogoda/pogoda.jar
+sleep 60m
+done
+exit
+else
+/usr/local/bin/.pogoda/pogoda.jar
+fi
+exit

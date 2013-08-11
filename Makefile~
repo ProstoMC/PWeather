@@ -1,0 +1,7 @@
+target: 
+	cp pweather /usr/local/bin
+	chmod +x /usr/local/bin/pweather
+	cp .pogoda /usr/local/bin -r
+	cp -i .config /usr/local/bin/.pogoda
+	chmod +x /usr/local/bin/.pogoda/*
+	 
